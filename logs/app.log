@@ -1,0 +1,407 @@
+2025-06-06 03:06:48,293 - app - INFO - Request URL: http://127.0.0.1:8080/health
+2025-06-06 03:06:48,294 - app - INFO - Request Method: POST
+2025-06-06 03:06:48,297 - app - INFO - Request Data: b''
+2025-06-06 03:06:48,298 - app - INFO - Response Status: 405 METHOD NOT ALLOWED
+2025-06-06 03:06:54,680 - app - INFO - Request URL: http://127.0.0.1:8080/health
+2025-06-06 03:06:54,680 - app - INFO - Request Method: POST
+2025-06-06 03:06:54,681 - app - INFO - Request Data: b''
+2025-06-06 03:06:54,681 - app - INFO - Response Status: 405 METHOD NOT ALLOWED
+2025-06-06 03:09:15,924 - app - INFO - Request URL: http://127.0.0.1:8080/health
+2025-06-06 03:09:15,925 - app - INFO - Request Method: GET
+2025-06-06 03:09:15,930 - app - INFO - Request Data: b''
+2025-06-06 03:09:15,933 - app - INFO - ✅ Health check endpoint accessed.
+2025-06-06 03:09:15,935 - app - INFO - Response Status: 200 OK
+2025-06-06 03:10:27,396 - app - INFO - Request URL: http://127.0.0.1:8080/apikey_protected
+2025-06-06 03:10:27,396 - app - INFO - Request Method: POST
+2025-06-06 03:10:27,397 - app - INFO - Request Data: b''
+2025-06-06 03:10:27,398 - app - INFO - Response Status: 404 NOT FOUND
+2025-06-06 03:11:04,135 - app - INFO - Request URL: http://127.0.0.1:8080/apikey_protected
+2025-06-06 03:11:04,136 - app - INFO - Request Method: POST
+2025-06-06 03:11:04,137 - app - INFO - Request Data: b''
+2025-06-06 03:11:04,138 - app - INFO - Response Status: 404 NOT FOUND
+2025-06-06 03:11:10,091 - app - INFO - Request URL: http://127.0.0.1:8080/apikey_protected
+2025-06-06 03:11:10,093 - app - INFO - Request Method: POST
+2025-06-06 03:11:10,093 - app - INFO - Request Data: b''
+2025-06-06 03:11:10,093 - app - INFO - Response Status: 404 NOT FOUND
+2025-06-06 03:11:28,636 - app - INFO - Request URL: http://127.0.0.1:8080/apikey-protected
+2025-06-06 03:11:28,636 - app - INFO - Request Method: POST
+2025-06-06 03:11:28,636 - app - INFO - Request Data: b''
+2025-06-06 03:11:28,637 - app - INFO - Response Status: 405 METHOD NOT ALLOWED
+2025-06-06 03:11:36,918 - app - INFO - Request URL: http://127.0.0.1:8080/apikey-protected
+2025-06-06 03:11:36,918 - app - INFO - Request Method: POST
+2025-06-06 03:11:36,919 - app - INFO - Request Data: b''
+2025-06-06 03:11:36,920 - app - INFO - Response Status: 405 METHOD NOT ALLOWED
+2025-06-06 03:12:07,602 - app - INFO - Request URL: http://127.0.0.1:8080/apikey-protected
+2025-06-06 03:12:07,603 - app - INFO - Request Method: POST
+2025-06-06 03:12:07,603 - app - INFO - Request Data: b''
+2025-06-06 03:12:07,604 - app - INFO - Response Status: 405 METHOD NOT ALLOWED
+2025-06-06 03:12:08,824 - app - INFO - Request URL: http://127.0.0.1:8080/apikey-protected
+2025-06-06 03:12:08,825 - app - INFO - Request Method: POST
+2025-06-06 03:12:08,825 - app - INFO - Request Data: b''
+2025-06-06 03:12:08,825 - app - INFO - Response Status: 405 METHOD NOT ALLOWED
+2025-06-06 03:12:26,191 - app - INFO - Request URL: http://127.0.0.1:8080/apikey-protected
+2025-06-06 03:12:26,191 - app - INFO - Request Method: POST
+2025-06-06 03:12:26,192 - app - INFO - Request Data: b''
+2025-06-06 03:12:26,193 - app - INFO - Response Status: 405 METHOD NOT ALLOWED
+2025-06-06 03:13:44,592 - app - INFO - Request URL: http://127.0.0.1:8080/apikey-protected
+2025-06-06 03:13:44,592 - app - INFO - Request Method: POST
+2025-06-06 03:13:44,593 - app - INFO - Request Data: b''
+2025-06-06 03:13:44,593 - app - INFO - Response Status: 405 METHOD NOT ALLOWED
+2025-06-06 03:28:48,702 - app - INFO - Request URL: http://127.0.0.1:8080/apikey-protected
+2025-06-06 03:28:48,703 - app - INFO - Request Method: POST
+2025-06-06 03:28:48,704 - app - INFO - Request Data: b''
+2025-06-06 03:28:48,705 - app - INFO - Response Status: 405 METHOD NOT ALLOWED
+2025-06-06 03:29:17,994 - app - INFO - Request URL: http://127.0.0.1:8080/apikey-protected
+2025-06-06 03:29:17,994 - app - INFO - Request Method: POST
+2025-06-06 03:29:17,996 - app - INFO - Request Data: b''
+2025-06-06 03:29:17,997 - app - INFO - Response Status: 405 METHOD NOT ALLOWED
+2025-06-06 03:30:00,473 - app - INFO - Request URL: http://127.0.0.1:8080/apikey-protected
+2025-06-06 03:30:00,473 - app - INFO - Request Method: POST
+2025-06-06 03:30:00,473 - app - INFO - Request Data: b''
+2025-06-06 03:30:00,474 - app - INFO - Response Status: 405 METHOD NOT ALLOWED
+2025-06-06 03:30:01,516 - app - INFO - Request URL: http://127.0.0.1:8080/apikey-protected
+2025-06-06 03:30:01,517 - app - INFO - Request Method: POST
+2025-06-06 03:30:01,517 - app - INFO - Request Data: b''
+2025-06-06 03:30:01,518 - app - INFO - Response Status: 405 METHOD NOT ALLOWED
+2025-06-06 03:30:32,341 - app - INFO - Request URL: http://127.0.0.1:8080/apidocs
+2025-06-06 03:30:32,342 - app - INFO - Request Method: GET
+2025-06-06 03:30:32,342 - app - INFO - Request Data: b''
+2025-06-06 03:30:32,343 - app - INFO - Response Status: 308 PERMANENT REDIRECT
+2025-06-06 03:30:32,351 - app - INFO - Request URL: http://127.0.0.1:8080/apidocs/
+2025-06-06 03:30:32,351 - app - INFO - Request Method: GET
+2025-06-06 03:30:32,352 - app - INFO - Request Data: b''
+2025-06-06 03:30:32,377 - app - INFO - Response Status: 200 OK
+2025-06-06 03:30:32,418 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-bundle.js
+2025-06-06 03:30:32,419 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui.css
+2025-06-06 03:30:32,419 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/lib/jquery.min.js
+2025-06-06 03:30:32,420 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-standalone-preset.js
+2025-06-06 03:30:32,420 - app - INFO - Request Method: GET
+2025-06-06 03:30:32,420 - app - INFO - Request Method: GET
+2025-06-06 03:30:32,420 - app - INFO - Request Method: GET
+2025-06-06 03:30:32,421 - app - INFO - Request Method: GET
+2025-06-06 03:30:32,422 - app - INFO - Request Data: b''
+2025-06-06 03:30:32,422 - app - INFO - Request Data: b''
+2025-06-06 03:30:32,423 - app - INFO - Request Data: b''
+2025-06-06 03:30:32,423 - app - INFO - Request Data: b''
+2025-06-06 03:30:32,535 - app - INFO - Response Status: 200 OK
+2025-06-06 03:30:32,536 - app - INFO - Response Status: 200 OK
+2025-06-06 03:30:32,539 - app - INFO - Response Status: 200 OK
+2025-06-06 03:30:32,540 - app - INFO - Response Status: 200 OK
+2025-06-06 03:30:33,073 - app - INFO - Request URL: http://127.0.0.1:8080/apispec_1.json
+2025-06-06 03:30:33,073 - app - INFO - Request Method: GET
+2025-06-06 03:30:33,074 - app - INFO - Request Data: b''
+2025-06-06 03:30:33,079 - app - INFO - Response Status: 200 OK
+2025-06-06 03:30:33,126 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/favicon-32x32.png
+2025-06-06 03:30:33,126 - app - INFO - Request Method: GET
+2025-06-06 03:30:33,127 - app - INFO - Request Data: b''
+2025-06-06 03:30:33,128 - app - INFO - Response Status: 200 OK
+2025-06-06 03:30:46,874 - app - INFO - Request URL: http://127.0.0.1:8080/apikey-protected
+2025-06-06 03:30:46,875 - app - INFO - Request Method: GET
+2025-06-06 03:30:46,875 - app - INFO - Request Data: b''
+2025-06-06 03:30:46,875 - app - INFO - 🔑 API Key authentication successful.
+2025-06-06 03:30:46,876 - app - INFO - Response Status: 200 OK
+2025-06-06 03:31:12,339 - app - INFO - Request URL: http://127.0.0.1:8080/apikey-protected
+2025-06-06 03:31:12,339 - app - INFO - Request Method: POST
+2025-06-06 03:31:12,339 - app - INFO - Request Data: b''
+2025-06-06 03:31:12,341 - app - INFO - Response Status: 405 METHOD NOT ALLOWED
+2025-06-06 03:31:13,759 - app - INFO - Request URL: http://127.0.0.1:8080/apikey-protected
+2025-06-06 03:31:13,760 - app - INFO - Request Method: POST
+2025-06-06 03:31:13,760 - app - INFO - Request Data: b''
+2025-06-06 03:31:13,760 - app - INFO - Response Status: 405 METHOD NOT ALLOWED
+2025-06-06 03:35:21,656 - app - INFO - Request URL: http://127.0.0.1:8080/apikey-protected
+2025-06-06 03:35:21,657 - app - INFO - Request Method: POST
+2025-06-06 03:35:21,658 - app - INFO - Request Data: b''
+2025-06-06 03:35:21,658 - app - INFO - Response Status: 405 METHOD NOT ALLOWED
+2025-06-06 03:35:44,664 - app - INFO - Request URL: http://127.0.0.1:8080/apikey-protected
+2025-06-06 03:35:44,664 - app - INFO - Request Method: POST
+2025-06-06 03:35:44,665 - app - INFO - Request Data: b''
+2025-06-06 03:35:44,665 - app - INFO - Response Status: 405 METHOD NOT ALLOWED
+2025-06-07 02:20:18,760 - app - INFO - Request URL: http://127.0.0.1:8080/apikey-protected
+2025-06-07 02:20:18,762 - app - INFO - Request Method: POST
+2025-06-07 02:20:18,767 - app - INFO - Request Data: b''
+2025-06-07 02:20:18,768 - app - INFO - Response Status: 405 METHOD NOT ALLOWED
+2025-06-07 02:21:43,341 - app - INFO - Request URL: http://127.0.0.1:8080/apikey-protected
+2025-06-07 02:21:43,341 - app - INFO - Request Method: POST
+2025-06-07 02:21:43,343 - app - INFO - Request Data: b''
+2025-06-07 02:21:43,344 - app - INFO - 🔑 API Key authentication successful.
+2025-06-07 02:21:43,348 - app - INFO - Response Status: 200 OK
+2025-06-07 02:47:15,541 - app - INFO - Request URL: http://127.0.0.1:8080/apidocs
+2025-06-07 02:47:15,543 - app - INFO - Request Method: GET
+2025-06-07 02:47:15,546 - app - INFO - Request Data: b''
+2025-06-07 02:47:15,548 - app - INFO - Response Status: 308 PERMANENT REDIRECT
+2025-06-07 02:47:15,560 - app - INFO - Request URL: http://127.0.0.1:8080/apidocs/
+2025-06-07 02:47:15,561 - app - INFO - Request Method: GET
+2025-06-07 02:47:15,561 - app - INFO - Request Data: b''
+2025-06-07 02:47:15,645 - app - INFO - Response Status: 200 OK
+2025-06-07 02:47:15,687 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui.css
+2025-06-07 02:47:15,688 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-standalone-preset.js
+2025-06-07 02:47:15,689 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/lib/jquery.min.js
+2025-06-07 02:47:15,690 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-bundle.js
+2025-06-07 02:47:15,690 - app - INFO - Request Method: GET
+2025-06-07 02:47:15,690 - app - INFO - Request Method: GET
+2025-06-07 02:47:15,691 - app - INFO - Request Method: GET
+2025-06-07 02:47:15,691 - app - INFO - Request Method: GET
+2025-06-07 02:47:15,692 - app - INFO - Request Data: b''
+2025-06-07 02:47:15,692 - app - INFO - Request Data: b''
+2025-06-07 02:47:15,693 - app - INFO - Request Data: b''
+2025-06-07 02:47:15,693 - app - INFO - Request Data: b''
+2025-06-07 02:47:15,812 - app - INFO - Response Status: 200 OK
+2025-06-07 02:47:15,829 - app - INFO - Response Status: 200 OK
+2025-06-07 02:47:15,857 - app - INFO - Response Status: 200 OK
+2025-06-07 02:47:15,862 - app - INFO - Response Status: 200 OK
+2025-06-07 02:47:16,437 - app - INFO - Request URL: http://127.0.0.1:8080/apispec_1.json
+2025-06-07 02:47:16,437 - app - INFO - Request Method: GET
+2025-06-07 02:47:16,438 - app - INFO - Request Data: b''
+2025-06-07 02:47:16,455 - app - INFO - Response Status: 200 OK
+2025-06-07 02:48:18,008 - app - INFO - Request URL: http://127.0.0.1:8080/apikey-protected
+2025-06-07 02:48:18,009 - app - INFO - Request Method: POST
+2025-06-07 02:48:18,010 - app - INFO - Request Data: b''
+2025-06-07 02:48:18,011 - app - INFO - 🔑 API Key authentication successful.
+2025-06-07 02:48:18,011 - app - INFO - Response Status: 200 OK
+2025-06-07 02:48:46,558 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-07 02:48:46,558 - app - INFO - Request Method: POST
+2025-06-07 02:48:46,559 - app - INFO - Request Data: b''
+2025-06-07 02:49:40,218 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-07 02:49:40,219 - app - INFO - Request Method: POST
+2025-06-07 02:49:40,220 - app - INFO - Request Data: b''
+2025-06-07 02:51:07,553 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-07 02:51:07,554 - app - INFO - Request Method: POST
+2025-06-07 02:51:07,557 - app - INFO - Request Data: b''
+2025-06-07 02:52:19,283 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-07 02:52:19,283 - app - INFO - Request Method: POST
+2025-06-07 02:52:19,285 - app - INFO - Request Data: b''
+2025-06-07 02:53:39,769 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-07 02:53:39,769 - app - INFO - Request Method: POST
+2025-06-07 02:53:39,771 - app - INFO - Request Data: b''
+2025-06-07 03:01:30,664 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-07 03:01:30,665 - app - INFO - Request Method: POST
+2025-06-07 03:01:30,667 - app - INFO - Request Data: b''
+2025-06-07 03:01:48,243 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-07 03:01:48,243 - app - INFO - Request Method: POST
+2025-06-07 03:01:48,245 - app - INFO - Request Data: b''
+2025-06-07 03:01:48,259 - app - INFO - Response Status: 200 OK
+2025-06-07 03:02:28,423 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-07 03:02:28,424 - app - INFO - Request Method: POST
+2025-06-07 03:02:28,427 - app - INFO - Request Data: b''
+2025-06-07 03:02:28,776 - app - INFO - Response Status: 200 OK
+2025-06-07 03:02:52,110 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-07 03:02:52,110 - app - INFO - Request Method: POST
+2025-06-07 03:02:52,113 - app - INFO - Request Data: b''
+2025-06-07 03:02:52,137 - app - INFO - Response Status: 200 OK
+2025-06-07 03:05:40,891 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-07 03:05:40,891 - app - INFO - Request Method: POST
+2025-06-07 03:05:40,892 - app - INFO - Request Data: b''
+2025-06-07 03:05:42,325 - app - INFO - Response Status: 200 OK
+2025-06-07 03:06:10,265 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-07 03:06:10,266 - app - INFO - Request Method: POST
+2025-06-07 03:06:10,271 - app - INFO - Request Data: b''
+2025-06-07 03:06:11,409 - app - INFO - Response Status: 200 OK
+2025-06-07 03:08:47,093 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-07 03:08:47,096 - app - INFO - Request Method: POST
+2025-06-07 03:08:47,098 - app - INFO - Request Data: b''
+2025-06-07 03:08:47,240 - app - INFO - Response Status: 200 OK
+2025-06-07 03:14:27,467 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-07 03:14:27,468 - app - INFO - Request Method: POST
+2025-06-07 03:14:27,471 - app - INFO - Request Data: b''
+2025-06-07 03:14:27,640 - app - INFO - Response Status: 200 OK
+2025-06-07 03:14:30,355 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-07 03:14:30,356 - app - INFO - Request Method: POST
+2025-06-07 03:14:30,358 - app - INFO - Request Data: b''
+2025-06-07 03:14:30,505 - app - INFO - Response Status: 200 OK
+2025-06-07 03:15:26,441 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-07 03:15:26,442 - app - INFO - Request Method: POST
+2025-06-07 03:15:26,444 - app - INFO - Request Data: b''
+2025-06-07 03:15:26,591 - app - INFO - Response Status: 200 OK
+2025-06-07 03:15:31,348 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-07 03:15:31,349 - app - INFO - Request Method: POST
+2025-06-07 03:15:31,355 - app - INFO - Request Data: b''
+2025-06-07 03:15:31,867 - app - INFO - Response Status: 200 OK
+2025-06-07 03:15:38,456 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-07 03:15:38,457 - app - INFO - Request Method: POST
+2025-06-07 03:15:38,458 - app - INFO - Request Data: b''
+2025-06-07 03:15:38,600 - app - INFO - Response Status: 200 OK
+2025-06-07 03:17:40,204 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-07 03:17:40,204 - app - INFO - Request Method: POST
+2025-06-07 03:17:40,213 - app - INFO - Request Data: b''
+2025-06-07 03:17:44,157 - app - INFO - Response Status: 200 OK
+2025-06-08 01:36:56,783 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-08 01:36:56,785 - app - INFO - Request Method: POST
+2025-06-08 01:36:56,789 - app - INFO - Request Data: b''
+2025-06-08 01:36:59,242 - app - INFO - Response Status: 200 OK
+2025-06-08 01:42:58,933 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-08 01:42:58,933 - app - INFO - Request Method: POST
+2025-06-08 01:42:58,938 - app - INFO - Request Data: b''
+2025-06-08 01:43:01,336 - app - INFO - Response Status: 200 OK
+2025-06-08 01:43:51,918 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-08 01:43:51,919 - app - INFO - Request Method: POST
+2025-06-08 01:43:51,929 - app - INFO - Request Data: b''
+2025-06-08 01:43:54,355 - app - INFO - Response Status: 200 OK
+2025-06-08 01:44:37,373 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-08 01:44:37,374 - app - INFO - Request Method: POST
+2025-06-08 01:44:37,378 - app - INFO - Request Data: b''
+2025-06-08 01:45:30,756 - app - INFO - Response Status: 200 OK
+2025-06-08 02:02:29,284 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-08 02:02:29,286 - app - INFO - Request Method: POST
+2025-06-08 02:02:29,296 - app - INFO - Request Data: b''
+2025-06-08 02:04:40,584 - app - INFO - Response Status: 200 OK
+2025-06-08 02:07:12,899 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-08 02:07:12,900 - app - INFO - Request Method: POST
+2025-06-08 02:07:12,904 - app - INFO - Request Data: b''
+2025-06-08 02:07:15,305 - app - INFO - Response Status: 200 OK
+2025-06-08 02:07:25,824 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-08 02:07:25,825 - app - INFO - Request Method: POST
+2025-06-08 02:07:25,829 - app - INFO - Request Data: b''
+2025-06-08 02:10:15,528 - app - INFO - Response Status: 200 OK
+2025-06-08 02:14:54,232 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-08 02:14:54,233 - app - INFO - Request Method: POST
+2025-06-08 02:14:54,237 - app - INFO - Request Data: b''
+2025-06-08 02:24:13,847 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-08 02:24:13,848 - app - INFO - Request Method: POST
+2025-06-08 02:24:13,854 - app - INFO - Request Data: b''
+2025-06-08 02:27:07,240 - app - INFO - Response Status: 200 OK
+2025-06-08 02:28:14,243 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-08 02:28:14,243 - app - INFO - Request Method: POST
+2025-06-08 02:28:14,248 - app - INFO - Request Data: b''
+2025-06-08 02:30:34,544 - app - INFO - Response Status: 200 OK
+2025-06-08 02:32:05,388 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-08 02:32:05,388 - app - INFO - Request Method: POST
+2025-06-08 02:32:05,393 - app - INFO - Request Data: b''
+2025-06-08 02:34:10,225 - app - INFO - Response Status: 200 OK
+2025-06-08 02:35:23,410 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-08 02:35:23,410 - app - INFO - Request Method: POST
+2025-06-08 02:35:23,415 - app - INFO - Request Data: b''
+2025-06-08 02:37:59,831 - app - INFO - Response Status: 200 OK
+2025-06-08 02:38:35,715 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-08 02:38:35,716 - app - INFO - Request Method: POST
+2025-06-08 02:38:35,722 - app - INFO - Request Data: b''
+2025-06-08 02:46:41,312 - app - INFO - Response Status: 200 OK
+2025-06-08 02:51:50,384 - app - INFO - Request URL: http://127.0.0.1:8080/report
+2025-06-08 02:51:50,386 - app - INFO - Request Method: POST
+2025-06-08 02:51:50,391 - app - INFO - Request Data: b''
+2025-06-08 02:52:42,464 - app - INFO - Request URL: http://127.0.0.1:8080/report
+2025-06-08 02:52:42,465 - app - INFO - Request Method: POST
+2025-06-08 02:52:42,470 - app - INFO - Request Data: b''
+2025-06-08 02:54:47,610 - app - INFO - Response Status: 200 OK
+2025-06-08 02:56:47,521 - app - INFO - Request URL: http://127.0.0.1:8080/report
+2025-06-08 02:56:47,522 - app - INFO - Request Method: POST
+2025-06-08 02:56:47,527 - app - INFO - Request Data: b''
+2025-06-08 02:59:02,653 - app - INFO - Request URL: http://127.0.0.1:8080/report
+2025-06-08 02:59:02,654 - app - INFO - Request Method: POST
+2025-06-08 02:59:02,660 - app - INFO - Request Data: b''
+2025-06-08 03:10:20,233 - app - INFO - Response Status: 200 OK
+2025-06-08 03:14:54,054 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-08 03:14:54,055 - app - INFO - Request Method: POST
+2025-06-08 03:14:54,066 - app - INFO - Request Data: b''
+2025-06-08 03:17:18,445 - app - INFO - Response Status: 200 OK
+2025-06-08 03:18:54,975 - app - INFO - Request URL: http://127.0.0.1:8080/report
+2025-06-08 03:18:54,975 - app - INFO - Request Method: POST
+2025-06-08 03:18:54,980 - app - INFO - Request Data: b''
+2025-06-08 03:30:57,679 - app - INFO - Response Status: 200 OK
+2025-06-08 03:45:05,454 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-08 03:45:05,455 - app - INFO - Request Method: POST
+2025-06-08 03:45:05,460 - app - INFO - Request Data: b''
+2025-06-08 03:45:19,221 - app - INFO - Request URL: http://127.0.0.1:8080/report
+2025-06-08 03:45:19,247 - app - INFO - Request Method: POST
+2025-06-08 03:45:19,390 - app - INFO - Request Data: b''
+2025-06-08 03:45:41,535 - app - INFO - Request URL: http://127.0.0.1:8080/report
+2025-06-08 03:45:41,535 - app - INFO - Request Method: POST
+2025-06-08 03:45:41,537 - app - INFO - Request Data: b''
+2025-06-08 03:45:45,756 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-08 03:45:45,757 - app - INFO - Request Method: POST
+2025-06-08 03:45:45,761 - app - INFO - Request Data: b''
+2025-06-08 03:47:01,801 - app - INFO - Response Status: 200 OK
+2025-06-08 03:48:32,514 - app - INFO - Response Status: 200 OK
+2025-06-08 03:48:57,459 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-08 03:48:57,460 - app - INFO - Request Method: POST
+2025-06-08 03:48:57,461 - app - INFO - Request Data: b''
+2025-06-08 03:50:33,563 - app - INFO - Response Status: 200 OK
+2025-06-08 03:52:02,330 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-08 03:52:02,330 - app - INFO - Request Method: POST
+2025-06-08 03:52:02,331 - app - INFO - Request Data: b''
+2025-06-08 03:53:28,910 - app - INFO - Response Status: 200 OK
+2025-06-08 03:53:45,363 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-08 03:53:45,363 - app - INFO - Request Method: POST
+2025-06-08 03:53:45,368 - app - INFO - Request Data: b''
+2025-06-08 03:55:03,913 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-08 03:55:03,914 - app - INFO - Request Method: POST
+2025-06-08 03:55:03,916 - app - INFO - Request Data: b''
+2025-06-08 03:56:15,932 - app - INFO - Response Status: 200 OK
+2025-06-08 03:58:11,807 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-08 03:58:11,808 - app - INFO - Request Method: POST
+2025-06-08 03:58:11,816 - app - INFO - Request Data: b''
+2025-06-08 04:10:50,641 - app - INFO - Response Status: 200 OK
+2025-06-09 00:44:40,833 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-09 00:44:40,835 - app - INFO - Request Method: POST
+2025-06-09 00:44:40,838 - app - INFO - Request Data: b''
+2025-06-09 00:47:04,610 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-09 00:47:04,613 - app - INFO - Request Method: POST
+2025-06-09 00:47:04,617 - app - INFO - Request Data: b''
+2025-06-09 00:48:43,345 - app - INFO - Response Status: 200 OK
+2025-06-09 00:50:42,851 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-09 00:50:42,852 - app - INFO - Request Method: POST
+2025-06-09 00:50:42,853 - app - INFO - Request Data: b''
+2025-06-09 00:52:01,670 - app - INFO - Response Status: 200 OK
+2025-06-09 00:52:26,263 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-09 00:52:26,264 - app - INFO - Request Method: POST
+2025-06-09 00:52:26,266 - app - INFO - Request Data: b''
+2025-06-09 00:53:38,021 - app - INFO - Response Status: 200 OK
+2025-06-09 00:56:29,817 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-09 00:56:29,817 - app - INFO - Request Method: POST
+2025-06-09 00:56:29,819 - app - INFO - Request Data: b''
+2025-06-09 00:57:34,782 - app - INFO - Response Status: 200 OK
+2025-06-09 01:02:43,280 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-09 01:02:43,281 - app - INFO - Request Method: POST
+2025-06-09 01:02:43,282 - app - INFO - Request Data: b''
+2025-06-09 01:04:19,867 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-09 01:04:19,867 - app - INFO - Request Method: POST
+2025-06-09 01:04:19,868 - app - INFO - Request Data: b''
+2025-06-09 01:06:10,827 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-09 01:06:10,828 - app - INFO - Request Method: POST
+2025-06-09 01:06:10,829 - app - INFO - Request Data: b''
+2025-06-09 01:07:18,242 - app - INFO - Response Status: 200 OK
+2025-06-09 01:11:05,076 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-09 01:11:05,077 - app - INFO - Request Method: POST
+2025-06-09 01:11:05,080 - app - INFO - Request Data: b''
+2025-06-09 01:13:22,109 - app - INFO - Response Status: 200 OK
+2025-06-09 01:15:17,131 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-09 01:15:17,132 - app - INFO - Request Method: POST
+2025-06-09 01:15:17,133 - app - INFO - Request Data: b''
+2025-06-09 01:16:29,910 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-09 01:16:29,910 - app - INFO - Request Method: POST
+2025-06-09 01:16:29,911 - app - INFO - Request Data: b''
+2025-06-09 01:26:24,728 - app - INFO - Response Status: 200 OK
+2025-06-09 01:30:25,486 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-09 01:30:25,486 - app - INFO - Request Method: POST
+2025-06-09 01:30:25,493 - app - INFO - Request Data: b''
+2025-06-09 01:32:15,996 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-09 01:32:15,997 - app - INFO - Request Method: POST
+2025-06-09 01:32:15,998 - app - INFO - Request Data: b''
+2025-06-09 01:34:10,853 - app - INFO - Response Status: 200 OK
+2025-06-09 01:34:52,067 - app - INFO - Request URL: http://127.0.0.1:8080/report
+2025-06-09 01:34:52,068 - app - INFO - Request Method: POST
+2025-06-09 01:34:52,069 - app - INFO - Request Data: b''
+2025-06-09 01:45:51,328 - app - INFO - Response Status: 200 OK
+2025-06-09 01:52:57,118 - app - INFO - Request URL: http://127.0.0.1:8080/report
+2025-06-09 01:52:57,119 - app - INFO - Request Method: POST
+2025-06-09 01:52:57,122 - app - INFO - Request Data: b''
+2025-06-09 01:53:11,966 - app - INFO - Request URL: http://127.0.0.1:8080/report
+2025-06-09 01:53:11,966 - app - INFO - Request Method: POST
+2025-06-09 01:53:11,968 - app - INFO - Request Data: b''
+2025-06-09 01:56:19,898 - app - INFO - Request URL: http://127.0.0.1:8080/report
+2025-06-09 01:56:19,899 - app - INFO - Request Method: POST
+2025-06-09 01:56:19,901 - app - INFO - Request Data: b''
+2025-06-09 02:02:17,618 - app - INFO - Request URL: http://127.0.0.1:8080/report
+2025-06-09 02:02:17,618 - app - INFO - Request Method: POST
+2025-06-09 02:02:17,619 - app - INFO - Request Data: b''
+2025-06-09 02:11:01,712 - app - INFO - Request URL: http://127.0.0.1:8080/report
+2025-06-09 02:11:01,713 - app - INFO - Request Method: POST
+2025-06-09 02:11:01,714 - app - INFO - Request Data: b''
+2025-06-09 02:11:06,871 - app - INFO - Request URL: http://127.0.0.1:8080/report
+2025-06-09 02:11:06,871 - app - INFO - Request Method: POST
+2025-06-09 02:11:06,873 - app - INFO - Request Data: b''
+2025-06-09 02:12:14,133 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-09 02:12:14,133 - app - INFO - Request Method: POST
+2025-06-09 02:12:14,141 - app - INFO - Request Data: b''
+2025-06-09 02:14:38,088 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-09 02:14:38,089 - app - INFO - Request Method: POST
+2025-06-09 02:14:38,097 - app - INFO - Request Data: b''

@@ -1,0 +1,11 @@
+Flask==2.2.5
+Werkzeug==2.2.3
+flasgger==0.9.7.1
+python-dotenv==0.21.0
+Flask-Limiter==3.12
+pytesseract==0.3.13
+pdf2image==1.17.0
+pdfplumber==0.10.3
+Pillow==10.3.0
+requests==2.31.0
+transformers==4.52.4
