@@ -34,7 +34,8 @@ A modular, production-ready Flask API that ingests PDF invoices, extracts struct
    ```bash
    git clone https://github.com/your-org/invoice-extraction.git
    cd invoice-extraction
-  ```
+   ```
+
 
 2. **Create virtual environment**
 
@@ -42,7 +43,7 @@ A modular, production-ready Flask API that ingests PDF invoices, extracts struct
    python -m venv venv
    source venv/bin/activate     # macOS/Linux  
    venv\Scripts\activate        # Windows
-  ```
+   ```
 
 3. **Install dependencies**
 
@@ -69,6 +70,7 @@ API_KEY=your_api_key_here
 OLLAMA_HOST=http://localhost:11434
 OLLAMA_MODEL=mistral
 ```
+
 
 * **API\_KEY** protects all endpoints
 * **OLLAMA\_HOST** & **OLLAMA\_MODEL** configure your local Ollama server
