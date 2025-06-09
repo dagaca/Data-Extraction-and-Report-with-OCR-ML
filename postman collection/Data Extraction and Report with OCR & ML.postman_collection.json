@@ -1,0 +1,554 @@
+{
+	"info": {
+		"_postman_id": "e40f05d9-9b62-47f3-a98f-5672ab95b8af",
+		"name": "Data Extraction and Report with OCR & ML",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33368359"
+	},
+	"item": [
+		{
+			"name": "Health",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/health",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"health"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Extract",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "a9Xf2Kp7LmQz1Tr5Nv",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "invoice",
+							"type": "file",
+							"src": "postman-cloud:///1f043333-40a2-4ac0-a059-224e600f4de8"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/extract",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"extract"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Invaoice_2",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "a9Xf2Kp7LmQz1Tr5Nv",
+								"type": "text"
+							},
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "invoice",
+									"type": "file",
+									"src": "postman-cloud:///1f04332b-c033-4d00-aedc-b573d65742bb"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8080/extract",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"extract"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/2.2.3 Python/3.12.11"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 08 Jun 2025 23:30:00 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "10976"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"extracted_data\": {\n        \"bank_details\": {\n            \"iban\": \"GB29 NWBK 6016 1331 9268 19\",\n            \"swift_code\": \"NWBKGB2L\"\n        },\n        \"items\": [\n            {\n                \"description\": \"Power Supply\",\n                \"product_code\": \"PRD-5976\",\n                \"quantity\": 39,\n                \"total_price\": 18684.9,\n                \"unit_price\": 479.1\n            },\n            {\n                \"description\": \"Motherboard\",\n                \"product_code\": \"PRD-8211\",\n                \"quantity\": 32,\n                \"total_price\": 3449.28,\n                \"unit_price\": 107.79\n            },\n            {\n                \"description\": \"Microprocessor\",\n                \"product_code\": \"PRD-9055\",\n                \"quantity\": 28,\n                \"total_price\": 3604.16,\n                \"unit_price\": 128.72\n            },\n            {\n                \"description\": \"SSD Drive\",\n                \"product_code\": \"PRD-5064\",\n                \"quantity\": 34,\n                \"total_price\": 7983.54,\n                \"unit_price\": 234.81\n            },\n            {\n                \"description\": \"USB Controller\",\n                \"product_code\": \"PRD-6326\",\n                \"quantity\": 29,\n                \"total_price\": 3805.67,\n                \"unit_price\": 131.23\n            },\n            {\n                \"description\": \"USB Controller\",\n                \"product_code\": \"PRD-8572\",\n                \"quantity\": 4,\n                \"total_price\": 434.08,\n                \"unit_price\": 108.52\n            },\n            {\n                \"description\": \"USB Controller\",\n                \"product_code\": \"PRD-8419\",\n                \"quantity\": 7,\n                \"total_price\": 718.62,\n                \"unit_price\": 102.66\n            },\n            {\n                \"description\": \"Network Card\",\n                \"product_code\": \"PRD-2738\",\n                \"quantity\": 24,\n                \"total_price\": 6849.84,\n                \"unit_price\": 285.41\n            },\n            {\n                \"description\": \"Cooling Fan\",\n                \"product_code\": \"PRD-1771\",\n                \"quantity\": 15,\n                \"total_price\": 6624.45,\n                \"unit_price\": 441.63\n            },\n            {\n                \"description\": \"Graphics Card\",\n                \"product_code\": \"PRD-1238\",\n                \"quantity\": 9,\n                \"total_price\": 2918.61,\n                \"unit_price\": 324.29\n            },\n            {\n                \"description\": \"Graphics Card\",\n                \"product_code\": \"PRD-2225\",\n                \"quantity\": 24,\n                \"total_price\": 6294.24,\n                \"unit_price\": 262.26\n            },\n            {\n                \"description\": \"USB Controller\",\n                \"product_code\": \"PRD-1372\",\n                \"quantity\": 19,\n                \"total_price\": 868.68,\n                \"unit_price\": 45.72\n            },\n            {\n                \"description\": \"USB Controller\",\n                \"product_code\": \"PRD-6208\",\n                \"quantity\": 3,\n                \"total_price\": 482.79,\n                \"unit_price\": 160.93\n            },\n            {\n                \"description\": \"Microprocessor\",\n                \"product_code\": \"PRD-5513\",\n                \"quantity\": 45,\n                \"total_price\": 19273.5,\n                \"unit_price\": 428.3\n            },\n            {\n                \"description\": \"Memory Module\",\n                \"product_code\": \"PRD-4588\",\n                \"quantity\": 39,\n                \"total_price\": 7999.68,\n                \"unit_price\": 205.12\n            },\n            {\n                \"description\": \"Power Supply\",\n                \"product_code\": \"PRD-7942\",\n                \"quantity\": 19,\n                \"total_price\": 912.95,\n                \"unit_price\": 48.05\n            },\n            {\n                \"description\": \"Cooling Fan\",\n                \"product_code\": \"PRD-9459\",\n                \"quantity\": 16,\n                \"total_price\": 5440,\n                \"unit_price\": 340\n            },\n            {\n                \"description\": \"Memory Module\",\n                \"product_code\": \"PRD-2780\",\n                \"quantity\": 100,\n                \"total_price\": 3500,\n                \"unit_price\": 35\n            },\n            {\n                \"description\": \"HDMI Cable\",\n                \"product_code\": \"PRD-4682\",\n                \"quantity\": 100,\n                \"total_price\": 300,\n                \"unit_price\": 3\n            },\n            {\n                \"description\": \"HDMI Cable\",\n                \"product_code\": \"PRD-9847\",\n                \"quantity\": 50,\n                \"total_price\": 250,\n                \"unit_price\": 5\n            },\n            {\n                \"description\": \"Power Supply\",\n                \"product_code\": \"PRD-1964\",\n                \"quantity\": 10,\n                \"total_price\": 800,\n                \"unit_price\": 80\n            },\n            {\n                \"description\": \"USB Controller\",\n                \"product_code\": \"PRD-2599\",\n                \"quantity\": 37,\n                \"total_price\": 2180.04,\n                \"unit_price\": 58.92\n            },\n            {\n                \"description\": \"Microprocessor\",\n                \"product_code\": \"PRD-7695\",\n                \"quantity\": 31,\n                \"total_price\": 13361.31,\n                \"unit_price\": 431.01\n            },\n            {\n                \"description\": \"SSD Drive\",\n                \"product_code\": \"PRD-7092\",\n                \"quantity\": 13,\n                \"total_price\": 1601.73,\n                \"unit_price\": 123.21\n            },\n            {\n                \"description\": \"Graphics Card\",\n                \"product_code\": \"PRD-5621\",\n                \"quantity\": 1,\n                \"total_price\": 429.35,\n                \"unit_price\": 429.35\n            },\n            {\n                \"description\": \"Graphics Card\",\n                \"product_code\": \"PRD-2818\",\n                \"quantity\": 36,\n                \"total_price\": 4442.4,\n                \"unit_price\": 123.4\n            },\n            {\n                \"description\": \"Cooling Fan\",\n                \"product_code\": \"PRD-3978\",\n                \"quantity\": 49,\n                \"total_price\": 13773.9,\n                \"unit_price\": 281.1\n            },\n            {\n                \"description\": \"USB Controller\",\n                \"product_code\": \"PRD-2599\",\n                \"quantity\": 37,\n                \"total_price\": 2180.04,\n                \"unit_price\": 58.92\n            },\n            {\n                \"description\": \"Microprocessor\",\n                \"product_code\": \"PRD-7695\",\n                \"quantity\": 31,\n                \"total_price\": 13361.31,\n                \"unit_price\": 431.01\n            },\n            {\n                \"description\": \"SSD Drive\",\n                \"product_code\": \"PRD-7092\",\n                \"quantity\": 13,\n                \"total_price\": 1601.73,\n                \"unit_price\": 123.21\n            },\n            {\n                \"description\": \"Graphics Card\",\n                \"product_code\": \"PRD-5621\",\n                \"quantity\": 1,\n                \"total_price\": 429.35,\n                \"unit_price\": 429.35\n            },\n            {\n                \"description\": \"Graphics Card\",\n                \"product_code\": \"PRD-2818\",\n                \"quantity\": 36,\n                \"total_price\": 4442.4,\n                \"unit_price\": 123.4\n            },\n            {\n                \"description\": \"Cooling Fan\",\n                \"product_code\": \"PRD-3978\",\n                \"quantity\": 49,\n                \"total_price\": 13773.9,\n                \"unit_price\": 281.1\n            },\n            {\n                \"description\": \"USB Controller\",\n                \"product_code\": \"PRD-2599\",\n                \"quantity\": 37,\n                \"total_price\": 2180.04,\n                \"unit_price\": 58.92\n            },\n            {\n                \"description\": \"Microprocessor\",\n                \"product_code\": \"PRD-7695\",\n                \"quantity\": 31,\n                \"total_price\": 13361.31,\n                \"unit_price\": 431.01\n            }\n        ],\n        \"payment_terms\": \"Net 30\",\n        \"po_numbers\": [\n            \"PO-526365\",\n            \"PO-360206\",\n            \"PO-620097\",\n            \"PO-756014\",\n            \"PO-842742\",\n            \"PO-362820\"\n        ],\n        \"subtotal\": 11420.61,\n        \"supplier_info\": \"GLOBAL TECH SOLUTIONS LTD.\",\n        \"total_amount\": 13704.73,\n        \"vat\": 2284.12\n    },\n    \"text\": \"GLOBAL TECH SOLUTIONS LTD.\\nUnit 7, Industrial Park\\nLondon, UK EC1A 1BB\\nVAT: GB123456789\\nPhone: +44 20 7123 4567\\nInvoice Date: 20/02/2025\\nInvoice Number: INV-53470\\nCustomer ID: CUST-5503\\nBill To:\\nTech Innovations Inc.\\n123 Business Avenue\\nNew York, NY 10001\\nUSA\\nTax ID: US987654321\\nItem Details:\\nPRD-5976 Power Supply Qty: 39 Price: $479.1 Total: $18684.9 PO: PO-\\n526365\\nPRD-8211 Motherboard Qty: 32 Price: $107.79 Total: $3449.28 PO: PO-\\n526365\\nPRD-9055 Microprocessor Qty: 28 Price: $128.72 Total: $3604.16 PO:\\nPO-526365\\nPRD-5064 SSD Drive Qty: 34 Price: $234.81 Total: $7983.54 PO: PO-\\n526365\\nPRD-6326 USB Controller Qty: 29 Price: $131.23 Total: $3805.67 PO:\\nPO-526365\\nPRD-8572 USB Controller Qty: 4 Price: $108.52 Total: $434.08 PO: PO-\\n526365\\nPRD-8419 USB Controller Qty: 7 Price: $102.66 Total: $718.62 PO: PO-\\n526365\\nPRD-2738 Network Card Qty: 24 Price: $285.41 Total: $6849.84 PO: PO-\\n360206\\nPRD-1771 Cooling Fan Qty: 15 Price: $441.63 Total: $6624.45 PO: PO-\\n360206\\nPRD-1238 Graphics Card Qty: 9 Price: $324.29 Total: $2918.61 PO: PO-\\n360206\\nPRD-2225 Graphics Card Qty: 24 Price: $262.26 Total: $6294.24 PO: PO-\\n360206\\nPRD-1372 USB Controller Qty: 19 Price: $45.72 Total: $868.68 PO: PO-\\n360206\\nPRD-6208 USB Controller Qty: 3 Price: $160.93 Total: $482.79 PO: PO-\\n360206\\nPRD-5513 Microprocessor Qty: 45 Price: $428.3 Total: $19273.5 PO: PO-\\n360206\\nPRD-4588 Memory Module Qty: 39 Price: $205.12 Total: $7999.68 PO: PO-\\n620097\\nPRD-7942 Power Supply Qty: 19 Price: $48.05 Total: $912.95 PO: PO-\\n620097\\nPRD-9459 Cooling Fan Qty: 16 Price: $336.13 Total: $5378.08 PO: PO-\\n620097\\nPRD-8913 Network Card Qty: 22 Price: $489.96 Total: $10779.12 PO: PO-\\n620097\\nPRD-6575 USB Controller Qty: 9 Price: $134.91 Total: $1214.19 PO: PO-\\n620097\\nPRD-5309 Memory Module Qty: 41 Price: $152.23 Total: $6241.43 PO: PO-\\n620097\\nPRD-2463 Motherboard Qty: 48 Price: $155.39 Total: $7458.72 PO: PO-\\n620097\\nPRD-4967 Power Supply Qty: 19 Price: $268.47 Total: $5100.93 PO: PO-\\n756014\\nPRD-1769 Motherboard Qty: 20 Price: $113.63 Total: $2272.6 PO: PO-\\n756014\\nPRD-2649 Memory Module Qty: 14 Price: $459.39 Total: $6431.46 PO: PO-\\n756014\\nPRD-4113 Microprocessor Qty: 19 Price: $56.26 Total: $1068.94 PO: PO-\\n756014\\nPRD-4823 USB Controller Qty: 26 Price: $310.99 Total: $8085.74 PO:\\nPO-756014\\nPRD-8435 Power Supply Qty: 41 Price: $312.75 Total: $12822.75 PO: PO-\\n756014\\nPRD-9612 Microprocessor Qty: 23 Price: $301.65 Total: $6937.95 PO:\\nPO-756014\\nPRD-3310 Microprocessor Qty: 37 Price: $31.8 Total: $1176.6 PO: PO-\\n842742\\nPRD-7041 Memory Module Qty: 47 Price: $402.38 Total: $18911.86 PO:\\nPO-842742\\nPRD-1167 Network Card Qty: 36 Price: $172.19 Total: $6198.84 PO: PO-\\n842742\\nPRD-1991 Memory Module Qty: 30 Price: $287.34 Total: $8620.2 PO: PO-\\n842742\\nPRD-7450 Memory Module Qty: 46 Price: $200.1 Total: $9204.6 PO: PO-\\n842742\\nPRD-8062 Graphics Card Qty: 10 Price: $150.36 Total: $1503.6 PO: PO-\\n842742\\nPRD-3574 Cooling Fan Qty: 49 Price: $365.46 Total: $17907.54 PO: PO-\\n842742\\nPRD-3154 Microprocessor Qty: 26 Price: $247.35 Total: $6431.1 PO: PO-\\n362820\\nPRD-5950 Cooling Fan Qty: 33 Price: $395.16 Total: $13040.28 PO: PO-\\n362820\\nPRD-8988 SSD Drive Qty: 48 Price: $411.78 Total: $19765.44 PO: PO-\\n362820\\nPRD-9909 HDMI Cable Qty: 13 Price: $317.08 Total: $4122.04 PO: PO-\\n362820\\nPRD-4267 HDMI Cable Qty: 48 Price: $349.07 Total: $16755.36 PO: PO-\\n362820\\nPRD-7856 Power Supply Qty: 5 Price: $348.2 Total: $1741.0 PO: PO-\\n362820\\nPRD-4683 Power Supply Qty: 29 Price: $268.37 Total: $7782.73 PO: PO-\\n362820\\nPRD-7453 HDMI Cable Qty: 22 Price: $242.68 Total: $5338.96 PO: PO-\\n526365\\nPRD-9473 Microprocessor Qty: 28 Price: $217.33 Total: $6085.24 PO:\\nPO-526365\\nPRD-7092 SSD Drive Qty: 13 Price: $123.21 Total: $1601.73 PO: PO-\\n526365\\nPRD-5621 Graphics Card Qty: 1 Price: $429.35 Total: $429.35 PO: PO-\\n526365\\nPRD-2818 Graphics Card Qty: 36 Price: $123.4 Total: $4442.4 PO: PO-\\n526365\\nPRD-3978 Cooling Fan Qty: 49 Price: $281.1 Total: $13773.9 PO: PO-\\n526365\\nPRD-2599 USB Controller Qty: 37 Price: $58.92 Total: $2180.04 PO: PO-\\n526365\\nPRD-7695 Microprocessor Qty: 31 Price: $431.01 Total: $13361.31 PO:\\nPO-360206\\nSubtotal: $11420.61\\nVAT (20%): $2284.12\\nTotal Amount: $13704.73\\nPayment Terms: Net 30\\nBank Details: IBAN: GB29 NWBK 6016 1331 9268 19\\nSwift Code: NWBKGB2L\\n\"\n}"
+				},
+				{
+					"name": "20250221092842541",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "a9Xf2Kp7LmQz1Tr5Nv",
+								"type": "text"
+							},
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "invoice",
+									"type": "file",
+									"src": "postman-cloud:///1f04332a-e600-4700-b063-5ce3adc05c7f"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8080/extract",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"extract"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/2.2.3 Python/3.12.11"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 08 Jun 2025 22:34:10 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2645"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"structured_json\": {\n        \"items\": [\n            {\n                \"description\": \"80 hours at $145.00/hr\",\n                \"product_code\": \"Software Development Services - Frontend Development\",\n                \"quantity\": 80,\n                \"total_price\": 11600,\n                \"unit_price\": 145\n            },\n            {\n                \"description\": \"120 hours at $165.00/hr\",\n                \"product_code\": \"Backend API Integration\",\n                \"quantity\": 120,\n                \"total_price\": 19800,\n                \"unit_price\": 165\n            },\n            {\n                \"description\": \"40 hours at $185,00/hr\",\n                \"product_code\": \"Cloud Infrastructure Setup\",\n                \"quantity\": 40,\n                \"total_price\": 7400,\n                \"unit_price\": 18500\n            },\n            {\n                \"description\": \"35 hours at $195.00/hr\",\n                \"product_code\": \"' Security Audit and Implementation\",\n                \"quantity\": 35,\n                \"total_price\": 6825,\n                \"unit_price\": 195\n            },\n            {\n                \"description\": \"45 hours at $125.00/hr\",\n                \"product_code\": \"e Project Management\",\n                \"quantity\": 45,\n                \"total_price\": 5625,\n                \"unit_price\": 125\n            }\n        ],\n        \"po_numbers\": [],\n        \"summary\": {\n            \"subtotal\": 51250,\n            \"total\": 61500,\n            \"vat\": 10250\n        },\n        \"supplier_info\": {\n            \"address\": [\n                \"123 Innovation Street\",\n                \"Tech District\",\n                \"London, UK EC1A 1BB\"\n            ],\n            \"name\": \"GLOBAL TECH SOLUTIONS LTD.\"\n        }\n    },\n    \"text\": \"Invoice Number: INV-43071\\nInvoice Date: 20/02/2025\\nDue Date: 22/03/2025\\n\\nBILL TO:\\n\\nTech Innovations Inc.\\n\\nAttn: Procurement Department\\n789 Silicon Avenue\\n\\nSan Francisco, CA 94105\\n\\nUSA\\n\\nVAT: US987654321\\n\\nDESCRIPTION\\n\\nGLOBAL TECH SOLUTIONS LTD.\\n123 Innovation Street\\n\\nTech District\\n\\nLondon, UK EC1A 1BB\\n\\nTel: +44 20 7123 4567\\n\\nVAT: GB123456789\\n\\nINVOICE\\n\\nSoftware Development Services - Frontend Development\\n\\nHours: 80 x Rate: $145.00/hr\\nAmount: $11,600.00\\n\\nBackend API Integration\\nHours: 120 x Rate: $165.00/hr\\nAmount: $19,800.00\\n\\nCloud Infrastructure Setup\\nHours: 40 x Rate: $185,00/hr\\nAmount: $7,400.00\\n\\n« Security Audit and Implementation\\nHours: 35 x Rate: $195.00/hr\\nAmount: $6,825.00\\n\\ne Project Management\\nHours: 45 x Rate: $125.00/hr\\nAmount: $5,625.00\\n\\nSubtotal: $51,250.00\\nVAT (20%): $10,250.00\\nTotal: $61,500.00\\n\\nPayment Details:\\n\\nBank: Barclays Bank\\n\\nAccount Name: Global Tech Solutions Ltd\\nSort Code: 20-00-00\\n\\nAccount Number: 12345678\\n\\nIBAN: GB29 BARC 2000 0012 3456 78\\nSWIFT/BIC: BARCGB22\\n\\nTerms & Conditions:\\n\\n1. Payment is due within 30 days\\n\\n2. Please include invoice number in payment reference\\n\\n3. Late payments are subject to 2% monthly interest charge\\n\\n\"\n}"
+				},
+				{
+					"name": "20250221125114588",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "a9Xf2Kp7LmQz1Tr5Nv",
+								"type": "text"
+							},
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "invoice",
+									"type": "file",
+									"src": "postman-cloud:///1f043333-40a2-4ac0-a059-224e600f4de8"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8080/extract",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"extract"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/2.2.3 Python/3.12.11"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 09 Jun 2025 00:29:05 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "10327"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"extracted_data\": {\n        \"bank_details\": {\n            \"iban\": \"GB29 NWBK 6016 1331 9268 19\",\n            \"swift\": \"NWBKGB2L\"\n        },\n        \"items\": [\n            {\n                \"description\": \"Semiconductor Parts\",\n                \"product_code\": \"PRD-7338-U\",\n                \"quantity\": 18,\n                \"total_price\": 325.44,\n                \"unit_price\": 18.08\n            },\n            {\n                \"description\": \"Industrial Controls\",\n                \"product_code\": \"PRD-2918-Q\",\n                \"quantity\": 25,\n                \"total_price\": 11419.5,\n                \"unit_price\": 456.78\n            },\n            {\n                \"description\": \"Industrial Controls\",\n                \"product_code\": \"PRD-3013-P\",\n                \"quantity\": 56,\n                \"total_price\": 45802.96,\n                \"unit_price\": 817.91\n            },\n            {\n                \"description\": \"Industrial Controls\",\n                \"product_code\": \"PRD-6726-P\",\n                \"quantity\": 42,\n                \"total_price\": 2220.12,\n                \"unit_price\": 52.86\n            },\n            {\n                \"description\": \"Semiconductor Parts\",\n                \"product_code\": \"PRD-8618-V\",\n                \"quantity\": 65,\n                \"total_price\": 11399.7,\n                \"unit_price\": 175.38\n            },\n            {\n                \"description\": \"Electronic Components\",\n                \"product_code\": \"PRD-8373-N\",\n                \"quantity\": 19,\n                \"total_price\": 17142.56,\n                \"unit_price\": 902.24\n            },\n            {\n                \"description\": \"Circuit Boards\",\n                \"product_code\": \"PRD-5464-H\",\n                \"quantity\": 4,\n                \"total_price\": 3441.6,\n                \"unit_price\": 860.4\n            },\n            {\n                \"description\": \"Circuit Boards\",\n                \"product_code\": \"PRD-1497-Y\",\n                \"quantity\": 95,\n                \"total_price\": 90895.05,\n                \"unit_price\": 956.79\n            },\n            {\n                \"description\": \"Semiconductor Parts\",\n                \"product_code\": \"PRD-8247-1\",\n                \"quantity\": 20,\n                \"total_price\": 2190.6,\n                \"unit_price\": null\n            },\n            {\n                \"description\": \"Electronic Components\",\n                \"product_code\": \"PRD-7378-Y\",\n                \"quantity\": 18,\n                \"total_price\": 2190.6,\n                \"unit_price\": 121.7\n            },\n            {\n                \"description\": \"Testing Equipment\",\n                \"product_code\": \"PRD-7611-A\",\n                \"quantity\": 8,\n                \"total_price\": 5947.84,\n                \"unit_price\": 743.48\n            },\n            {\n                \"description\": \"Testing Equipment\",\n                \"product_code\": \"PRD-2020-E\",\n                \"quantity\": 47,\n                \"total_price\": 832.37,\n                \"unit_price\": 17.71\n            },\n            {\n                \"description\": \"Industrial Controls\",\n                \"product_code\": \"PRD-9365-1\",\n                \"quantity\": 43,\n                \"total_price\": 34778.83,\n                \"unit_price\": 808.81\n            },\n            {\n                \"description\": \"Industrial Controls\",\n                \"product_code\": \"PRD-8328-H\",\n                \"quantity\": 68,\n                \"total_price\": 45769.44,\n                \"unit_price\": 673.08\n            },\n            {\n                \"description\": \"Industrial Controls\",\n                \"product_code\": \"PRD-9400-A\",\n                \"quantity\": 91,\n                \"total_price\": 5776.4,\n                \"unit_price\": null\n            },\n            {\n                \"description\": \"Circuit Boards\",\n                \"product_code\": \"PRD-8621-W\",\n                \"quantity\": 32,\n                \"total_price\": 6103.68,\n                \"unit_price\": 190.74\n            },\n            {\n                \"description\": \"Electronic Components\",\n                \"product_code\": \"PRD-7202-I\",\n                \"quantity\": 73,\n                \"total_price\": 12612.21,\n                \"unit_price\": 172.77\n            },\n            {\n                \"description\": \"Power Supplies\",\n                \"product_code\": \"PRD-3558-H\",\n                \"quantity\": 17,\n                \"total_price\": 4025.43,\n                \"unit_price\": 236.79\n            },\n            {\n                \"description\": \"Power Supplies\",\n                \"product_code\": \"PRD-9287-0\",\n                \"quantity\": 33,\n                \"total_price\": 25889.82,\n                \"unit_price\": 784.54\n            },\n            {\n                \"description\": \"Electronic Components\",\n                \"product_code\": \"PRD-7415-A\",\n                \"quantity\": 25,\n                \"total_price\": 21425.75,\n                \"unit_price\": 857.03\n            },\n            {\n                \"description\": \"Testing Equipment\",\n                \"product_code\": \"PRD-8662-R\",\n                \"quantity\": 21,\n                \"total_price\": 12172.02,\n                \"unit_price\": 579.62\n            },\n            {\n                \"description\": \"Power Supplies\",\n                \"product_code\": \"PRD-2303-X\",\n                \"quantity\": 96,\n                \"total_price\": 36949.44,\n                \"unit_price\": 384.89\n            },\n            {\n                \"description\": \"Electronic Components\",\n                \"product_code\": \"PRD-3325-T\",\n                \"quantity\": 27,\n                \"total_price\": 4317.84,\n                \"unit_price\": 159.92\n            }\n        ],\n        \"po_numbers\": [\n            \"PO-135298\"\n        ],\n        \"summary\": {\n            \"subtotal\": 885027.92,\n            \"total_amount\": 1062033.5,\n            \"vat\": 177005.58\n        },\n        \"supplier_info\": \"GLOBAL TECH SOLUTIONS LTD.\\n123 Innovation Street\\nTech City, TC 54321\\nUnited Kingdom\\nVAT: GB123456789\"\n    },\n    \"text\": \"INVOICE NUMBER: INV-62340\\nDATE: 09/02/2025\\nPO NUMBER: PO-135298\\n\\nBILL TO:\\n\\nTurkish Electronics Corporation\\nTeknoloji Mahallesi\\n\\nDigital Plaza No:45\\n\\n34000 Istanbul, Turkey\\n\\nVAT: TR987654321\\n\\nINVOICE DETAILS:\\n\\n1. Semiconductor Parts\\nProduct Code: PRD-7338-U\\nQuantity: 18 units\\n\\nUnit Price: $18.08\\nAmount: $325.44\\n\\n2, Industrial Controls\\nProduct Code: PRD-2918-Q\\nQuantity: 25 units\\n\\nUnit Price: $456.78\\nAmount: $11419,.50\\n\\n3. Industrial Controls\\nProduct Code: PRD-3013-P\\nQuantity: 56 units\\n\\nUnit Price: $817.91\\nAmount: $45802.96\\n\\nGLOBAL TECH SOLUTIONS LTD.\\n123 Innovation Street\\n\\nTech City, TC 54321\\n\\nUnited Kingdom\\n\\nVAT: GB123456789\\n\\n4, Industrial Controls\\nProduct Code: PRD-6726-P\\nQuantity: 42 units\\nUnit Price: $52.86\\nAmount: $2220.12\\n\\n5. Semiconductor Parts\\nProduct Code: PRD-8618-V\\nQuantity: 65 units\\n\\nUnit Price: $175.38\\nAmount: $11399.70\\n\\n7. Electronic Components\\nProduct Code: PRD-8373-N\\nQuantity: 19 units\\nUnit Price: $902.24\\nAmount: $17142.56\\n\\n8. Circuit Boards\\nProduct Code: PRD-5464-H\\nQuantity: 4 units\\nUnit Price: $860.40\\nAmount: $3441.60\\n\\n9, Circuit Boards\\nProduct Code: PRD-1497-Y\\nQuantity: 95 units\\nUnit Price: $956.79\\nAmount: $90895.05\\n\\n10, Semiconductor Parts\\nProduct Code: PRD-8247-1\\nQuantity: 20 units\\n\\n6. Electronic Components\\nProduct Code: PRD-7378-Y\\nQuantity: 18 units\\n\\nUnit Price: $121.70\\nAmount: $2190.60\\n\\nUnit Price: $319.72\\nAmount: $6394.40\\n\\n11. Testing Equipment\\nProduct Code: PRD-7611-A\\nQuantity: 8 units\\nUnit Price: $743.48\\nAmount: $5947.84\\n\\n13. Testing Equipment\\nProduct Code: PRD-2020-E\\nQuantity: 47 units\\nUnit Price: $17.71\\nAmount: $832.37\\n\\n14. Industrial Controls\\nProduct Code: PRD-9365-1\\nQuantity: 43 units\\n\\nUnit Price: $808.81\\nAmount: $34778.83\\n\\n16. Industrial Controls\\nProduct Code: PRD-8328-H\\nQuantity: 68 units\\n\\nUnit Price: $673.08\\nAmount: $45769.44\\n\\n12, Industrial Controls\\nProduct Code: PRD-9400-A\\nQuantity: 93 units\\n\\nUnit Price: $38.06\\nAmount: $3539.58\\n\\n15. Circuit Boards\\n\\nProduct Code: PRD-1141-G\\nQuantity: 28 units\\n\\nUnit Price: $178.71\\nAmount: $5003.88\\n\\n17. Circuit Boards\\nProduct Code: PRD-1824-F\\nQuantity: 84 units\\nUnit Price: $287.45\\nAmount: $24145.80\\n\\n19. Electronic Components\\nProduct Code: PRD-8536-K\\nQuantity: 24 units\\nUnit Price: $833.55\\nAmount: $20005.20\\n\\n20. Testing Equipment\\nProduct Code: PRD-1324-T\\nQuantity: 19 units\\nUnit Price: $765.07\\nAmount: $14536.33\\n\\n21. Semiconductor Parts\\nProduct Code: PRD-6072-N\\nQuantity: 7 units\\n\\nUnit Price: $357.55\\nAmount: $2502.85\\n\\n22. Industrial Controls\\nProduct Code: PRD-6566-X\\nQuantity: 25 units\\nUnit Price: $25.00\\nAmount: $625.00\\n\\n23. Semiconductor Parts\\nProduct Code: PRD-4120-C\\nQuantity: 90 units\\n\\n18. Electronic Components\\nProduct Code: PRD-4863-U\\nQuantity: 65 units\\n\\nUnit Price: $561.96\\nAmount: $36527.40\\n\\nUnit Price; $26.81\\nAmount: $2412.90\\n\\n24, Semiconductor Parts\\nProduct Code: PRD-5444-V\\nQuantity: 48 units\\nUnit Price: $602.36\\nAmount: $28913.28\\n\\n25. Industrial Controls\\nProduct Code: PRD-9603-E\\nQuantity: 36 units\\nUnit Price: $884.13\\nAmount: $31828.68\\n\\n26. Power Supplies\\n\\nProduct Code: PRD-8637-M\\nQuantity: 38 units\\n\\nUnit Price: $746.04\\nAmount: $28349.52\\n\\n27. Semiconductor Parts\\nProduct Code: PRD-9138-S\\nQuantity: 86 units\\n\\nUnit Price: $998.83\\nAmount: $85899,38\\n\\n28. Power Supplies\\nProduct Code: PRD-8909-1\\nQuantity: 23 units\\nUnit Price: $625.72\\nAmount: $14391.56\\n\\n29. Industrial Controls\\nProduct Code: PRD-4919-L\\nQuantity: 92 units\\n\\nUnit Price: $295.58\\nAmount: $27193.36\\n\\n30. Industrial Controls\\nProduct Code: PRD-5819-G\\nQuantity: 92 units\\nUnit Price: $388.45\\nAmount: $35737.40\\n\\n31. Testing Equipment\\nProduct Code: PRD-7893-N\\nQuantity: 39 units\\nUnit Price: $709.53\\nAmount; $27671.67\\n\\n32. Electronic Components\\nProduct Code: PRD-8864-N\\nQuantity: 48 units\\nUnit Price: $286.33\\nAmount: $13743.84\\n\\n33. Testing Equipment\\nProduct Code: PRD-8715-Y\\nQuantity; 21 units\\nUnit Price: $130.93\\nAmount: $2749.53\\n\\n35. Industrial Controls\\nProduct Code: PRD-7836-1\\nQuantity: 58 units\\n\\nUnit Price: $118.54\\nAmount: $6875.32\\n\\n34. Testing Equipment\\nProduct Code: PRD-8281-f\\nQuantity: 91 units\\n\\nUnit Price: $145.64\\nAmount: $13253.24\\n\\n36. Industrial Controls\\nProduct Code: PRD-6303-R\\nQuantity: 60 units\\n\\n37, Industrial Controls\\n\\nProduct Code: PRD-3933-A\\n\\nQuantity: 10 units\\nUnit Price: $577.64\\nAmount: $5776.40\\n\\n38. Circuit Boards\\n\\nProduct Code: PRD-8621-W\\n\\nQuantity: 32 units\\nUnit Price: $190.74\\nAmount: $6103.68\\n\\n39, Electronic Components\\nProduct Code: PRD-7202-I\\nQuantity: 73 units\\nUnit Price: $172.77\\nAmount: $12612.21\\n\\n40. Power Supplies\\nProduct Code: PRD-3558-H\\nQuantity: 17 units\\nUnit Price: $236.79\\nAmount: $4025.43\\n\\n41. Power Supplies\\nProduct Code: PRD-9287-0\\nQuantity: 33 units\\n\\nUnit Price: $784.54\\nAmount: $25889.82\\n\\n42. Electronic Components\\nProduct Code: PRD-7415-A\\nQuantity: 25 units\\nUnit Price: $857.03\\nAmount: $21425.75\\n\\nUnit Price: $854.82\\nAmount: $51289.20\\n\\n43. Testing Equipment\\nProduct Code: PRD-8662-R\\nQuantity: 21 units\\nUnit Price: $579.62\\nAmount: $12172,02\\n\\n44, Power Supplies\\nProduct Code: PRD-2303-X\\nQuantity: 96 units\\nUnit Price: $384.89\\nAmount: $36949.44\\n\\n45. Electronic Components\\nProduct Code: PRD-3325-T\\nQuantity: 27 units\\n\\nUnit Price: $159.92\\nAmount: $4317.84\\n\\nPayment Terms:\\nPayment due within 30 days\\n\\nPlease include invoice number in payment reference\\nBank Details: IBAN: GB29 NWBK 6016 1331 9268 19\\n\\nSWIFT: NWBKGB2L\\n\\nSubtotal: $885027,92\\nVAT (20%): $177005.58\\nTotal Amount: $1062033.50\\n\\n\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Report",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "a9Xf2Kp7LmQz1Tr5Nv",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "invoice",
+							"type": "file",
+							"src": "postman-cloud:///1f043333-40a2-4ac0-a059-224e600f4de8"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/report",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"report"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Invaoice_2",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "a9Xf2Kp7LmQz1Tr5Nv",
+								"type": "text"
+							},
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "invoice",
+									"type": "file",
+									"src": "postman-cloud:///1f04332b-c033-4d00-aedc-b573d65742bb"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8080/report",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"report"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/2.2.3 Python/3.12.11"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 09 Jun 2025 00:56:49 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "5693"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"consistency_report\": {\n        \"item_checks\": [\n            {\n                \"actual_total\": 18684.9,\n                \"expected_total\": 18684.9,\n                \"index\": 0,\n                \"match\": true,\n                \"product_code\": \"PRD-5976\"\n            },\n            {\n                \"actual_total\": 3449.28,\n                \"expected_total\": 3449.28,\n                \"index\": 1,\n                \"match\": true,\n                \"product_code\": \"PRD-8211\"\n            },\n            {\n                \"actual_total\": 3604.16,\n                \"expected_total\": 3604.16,\n                \"index\": 2,\n                \"match\": true,\n                \"product_code\": \"PRD-9055\"\n            },\n            {\n                \"actual_total\": 7983.54,\n                \"expected_total\": 7983.54,\n                \"index\": 3,\n                \"match\": true,\n                \"product_code\": \"PRD-5064\"\n            },\n            {\n                \"actual_total\": 3805.67,\n                \"expected_total\": 3805.67,\n                \"index\": 4,\n                \"match\": true,\n                \"product_code\": \"PRD-6326\"\n            },\n            {\n                \"actual_total\": 434.08,\n                \"expected_total\": 434.08,\n                \"index\": 5,\n                \"match\": true,\n                \"product_code\": \"PRD-8572\"\n            },\n            {\n                \"actual_total\": 718.62,\n                \"expected_total\": 718.62,\n                \"index\": 6,\n                \"match\": true,\n                \"product_code\": \"PRD-8419\"\n            },\n            {\n                \"actual_total\": 6849.84,\n                \"expected_total\": 6849.84,\n                \"index\": 7,\n                \"match\": true,\n                \"product_code\": \"PRD-2738\"\n            },\n            {\n                \"actual_total\": 6624.45,\n                \"expected_total\": 6624.45,\n                \"index\": 8,\n                \"match\": true,\n                \"product_code\": \"PRD-1771\"\n            },\n            {\n                \"actual_total\": 2918.61,\n                \"expected_total\": 2918.61,\n                \"index\": 9,\n                \"match\": true,\n                \"product_code\": \"PRD-1238\"\n            },\n            {\n                \"actual_total\": 6294.24,\n                \"expected_total\": 6294.24,\n                \"index\": 10,\n                \"match\": true,\n                \"product_code\": \"PRD-2225\"\n            },\n            {\n                \"actual_total\": 868.68,\n                \"expected_total\": 868.68,\n                \"index\": 11,\n                \"match\": true,\n                \"product_code\": \"PRD-1372\"\n            },\n            {\n                \"actual_total\": 482.79,\n                \"expected_total\": 482.79,\n                \"index\": 12,\n                \"match\": true,\n                \"product_code\": \"PRD-6208\"\n            },\n            {\n                \"actual_total\": 19273.5,\n                \"expected_total\": 19273.5,\n                \"index\": 13,\n                \"match\": true,\n                \"product_code\": \"PRD-5513\"\n            },\n            {\n                \"actual_total\": 7999.68,\n                \"expected_total\": 7999.68,\n                \"index\": 14,\n                \"match\": true,\n                \"product_code\": \"PRD-4588\"\n            },\n            {\n                \"actual_total\": 912.95,\n                \"expected_total\": 912.95,\n                \"index\": 15,\n                \"match\": true,\n                \"product_code\": \"PRD-7942\"\n            },\n            {\n                \"actual_total\": 19765.44,\n                \"expected_total\": 19765.44,\n                \"index\": 16,\n                \"match\": true,\n                \"product_code\": \"PRD-8988\"\n            },\n            {\n                \"actual_total\": 4122.04,\n                \"expected_total\": 4122.04,\n                \"index\": 17,\n                \"match\": true,\n                \"product_code\": \"PRD-9909\"\n            },\n            {\n                \"actual_total\": 16755.36,\n                \"expected_total\": 16755.36,\n                \"index\": 18,\n                \"match\": true,\n                \"product_code\": \"PRD-4267\"\n            },\n            {\n                \"actual_total\": 1741,\n                \"expected_total\": 1741,\n                \"index\": 19,\n                \"match\": true,\n                \"product_code\": \"PRD-7856\"\n            },\n            {\n                \"actual_total\": 7782.73,\n                \"expected_total\": 7782.73,\n                \"index\": 20,\n                \"match\": true,\n                \"product_code\": \"PRD-4683\"\n            },\n            {\n                \"actual_total\": 5338.96,\n                \"expected_total\": 5338.96,\n                \"index\": 21,\n                \"match\": true,\n                \"product_code\": \"PRD-7453\"\n            },\n            {\n                \"actual_total\": 6085.24,\n                \"expected_total\": 6085.24,\n                \"index\": 22,\n                \"match\": true,\n                \"product_code\": \"PRD-9473\"\n            },\n            {\n                \"actual_total\": 1601.73,\n                \"expected_total\": 1601.73,\n                \"index\": 23,\n                \"match\": true,\n                \"product_code\": \"PRD-7092\"\n            },\n            {\n                \"actual_total\": 429.35,\n                \"expected_total\": 429.35,\n                \"index\": 24,\n                \"match\": true,\n                \"product_code\": \"PRD-5621\"\n            },\n            {\n                \"actual_total\": 4442.4,\n                \"expected_total\": 4442.4,\n                \"index\": 25,\n                \"match\": true,\n                \"product_code\": \"PRD-2818\"\n            },\n            {\n                \"actual_total\": 13773.9,\n                \"expected_total\": 13773.9,\n                \"index\": 26,\n                \"match\": true,\n                \"product_code\": \"PRD-3978\"\n            },\n            {\n                \"actual_total\": 2180.04,\n                \"expected_total\": 2180.04,\n                \"index\": 27,\n                \"match\": true,\n                \"product_code\": \"PRD-2599\"\n            },\n            {\n                \"actual_total\": 13361.31,\n                \"expected_total\": 13361.31,\n                \"index\": 28,\n                \"match\": true,\n                \"product_code\": \"PRD-7695\"\n            }\n        ],\n        \"llm_summary\": \"Invoice analysis reveals the following discrepancies:\\n\\n- The total price for product code PRD-8572 and PRD-8419 (both USB Controller) should be 1383.62 instead of 1152.77 (mismatched total prices).\\n- Product code PRD-6326 and PRD-8572 have the same description, which might indicate a duplicate item (USB Controller). Ensure proper labeling for each line item.\\n- The subtotal listed in the summary (11420.61) does not match the calculated total from the sum of individual item totals (11375.98), suggesting an error in the subtotal calculation.\\n\\nPlease review and correct these discrepancies before finalizing this invoice.\",\n        \"po_duplicates\": [],\n        \"summary_check\": {\n            \"calculated_subtotal\": 188284.49,\n            \"expected_total\": 190568.61,\n            \"match\": false,\n            \"summary_subtotal\": 11420.61,\n            \"summary_total\": 0,\n            \"summary_vat\": 2284.12\n        }\n    }\n}"
+				},
+				{
+					"name": "20250221092842541",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "a9Xf2Kp7LmQz1Tr5Nv",
+								"type": "text"
+							},
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "invoice",
+									"type": "file",
+									"src": "postman-cloud:///1f04332a-e600-4700-b063-5ce3adc05c7f"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8080/report",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"report"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/2.2.3 Python/3.12.11"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 09 Jun 2025 00:34:49 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1759"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"consistency_report\": {\n        \"item_checks\": [\n            {\n                \"actual_total\": 11600,\n                \"expected_total\": 11600,\n                \"index\": 0,\n                \"match\": true,\n                \"product_code\": \"Software Development Services - Frontend Development\"\n            },\n            {\n                \"actual_total\": 19800,\n                \"expected_total\": 19800,\n                \"index\": 1,\n                \"match\": true,\n                \"product_code\": \"Backend API Integration\"\n            },\n            {\n                \"actual_total\": 7400,\n                \"expected_total\": 740000,\n                \"index\": 2,\n                \"match\": false,\n                \"product_code\": \"Cloud Infrastructure Setup\"\n            },\n            {\n                \"actual_total\": 6825,\n                \"expected_total\": 6825,\n                \"index\": 3,\n                \"match\": true,\n                \"product_code\": \"Security Audit and Implementation\"\n            },\n            {\n                \"actual_total\": 5625,\n                \"expected_total\": 5625,\n                \"index\": 4,\n                \"match\": true,\n                \"product_code\": \"e Project Management\"\n            }\n        ],\n        \"llm_summary\": \"The provided invoice from Global Tech Solutions LTD appears to be valid with no duplicate PO numbers found. However, there seems to be an issue with the calculation of the product 'Cloud Infrastructure Setup'. The total price (7400) is significantly lower than the expected total based on the quantity (40) and unit price (18500). Additionally, the VAT amount (10250) exceeds the subtotal (51250), which may indicate a mismatch or rounding error. It is recommended to verify these calculations for accuracy.\",\n        \"po_duplicates\": [],\n        \"summary_check\": {\n            \"calculated_subtotal\": 51250,\n            \"expected_total\": 61500,\n            \"match\": true,\n            \"summary_subtotal\": 51250,\n            \"summary_total\": 61500,\n            \"summary_vat\": 10250\n        }\n    }\n}"
+				},
+				{
+					"name": "20250221125114588",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "a9Xf2Kp7LmQz1Tr5Nv",
+								"type": "text"
+							},
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "invoice",
+									"type": "file",
+									"src": "postman-cloud:///1f043333-40a2-4ac0-a059-224e600f4de8"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8080/report",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"report"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/2.2.3 Python/3.12.11"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 09 Jun 2025 01:24:06 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "7466"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"consistency_report\": {\n        \"item_checks\": [\n            {\n                \"actual_total\": 325.44,\n                \"expected_total\": 325.44,\n                \"index\": 0,\n                \"match\": true,\n                \"product_code\": \"PRD-7338-U\"\n            },\n            {\n                \"actual_total\": 11419.5,\n                \"expected_total\": 11419.5,\n                \"index\": 1,\n                \"match\": true,\n                \"product_code\": \"PRD-2918-Q\"\n            },\n            {\n                \"actual_total\": 45802.96,\n                \"expected_total\": 45802.96,\n                \"index\": 2,\n                \"match\": true,\n                \"product_code\": \"PRD-3013-P\"\n            },\n            {\n                \"actual_total\": 2220.12,\n                \"expected_total\": 2220.12,\n                \"index\": 3,\n                \"match\": true,\n                \"product_code\": \"PRD-6726-P\"\n            },\n            {\n                \"actual_total\": 11399.7,\n                \"expected_total\": 11399.7,\n                \"index\": 4,\n                \"match\": true,\n                \"product_code\": \"PRD-8618-V\"\n            },\n            {\n                \"actual_total\": 17142.56,\n                \"expected_total\": 17142.56,\n                \"index\": 5,\n                \"match\": true,\n                \"product_code\": \"PRD-8373-N\"\n            },\n            {\n                \"actual_total\": 3441.6,\n                \"expected_total\": 3441.6,\n                \"index\": 6,\n                \"match\": true,\n                \"product_code\": \"PRD-5464-H\"\n            },\n            {\n                \"actual_total\": 90895.05,\n                \"expected_total\": 90895.05,\n                \"index\": 7,\n                \"match\": true,\n                \"product_code\": \"PRD-1497-Y\"\n            },\n            {\n                \"actual_total\": 2190.6,\n                \"expected_total\": 0,\n                \"index\": 8,\n                \"match\": false,\n                \"product_code\": \"PRD-8247-1\"\n            },\n            {\n                \"actual_total\": 2190.6,\n                \"expected_total\": 2190.6,\n                \"index\": 9,\n                \"match\": true,\n                \"product_code\": \"PRD-7378-Y\"\n            },\n            {\n                \"actual_total\": 5947.84,\n                \"expected_total\": 5947.84,\n                \"index\": 10,\n                \"match\": true,\n                \"product_code\": \"PRD-7611-A\"\n            },\n            {\n                \"actual_total\": 832.37,\n                \"expected_total\": 832.37,\n                \"index\": 11,\n                \"match\": true,\n                \"product_code\": \"PRD-2020-E\"\n            },\n            {\n                \"actual_total\": 34778.83,\n                \"expected_total\": 34778.83,\n                \"index\": 12,\n                \"match\": true,\n                \"product_code\": \"PRD-9365-1\"\n            },\n            {\n                \"actual_total\": 45769.44,\n                \"expected_total\": 45769.44,\n                \"index\": 13,\n                \"match\": true,\n                \"product_code\": \"PRD-8328-H\"\n            },\n            {\n                \"actual_total\": 6875.32,\n                \"expected_total\": 0,\n                \"index\": 14,\n                \"match\": false,\n                \"product_code\": \"PRD-9400-A\"\n            },\n            {\n                \"actual_total\": 6875.32,\n                \"expected_total\": 6875.32,\n                \"index\": 15,\n                \"match\": true,\n                \"product_code\": \"PRD-7836-1\"\n            },\n            {\n                \"actual_total\": 5776.4,\n                \"expected_total\": 5776.4,\n                \"index\": 16,\n                \"match\": true,\n                \"product_code\": \"PRD-3933-A\"\n            },\n            {\n                \"actual_total\": 6103.68,\n                \"expected_total\": 6103.68,\n                \"index\": 17,\n                \"match\": true,\n                \"product_code\": \"PRD-8621-W\"\n            },\n            {\n                \"actual_total\": 12612.21,\n                \"expected_total\": 12612.21,\n                \"index\": 18,\n                \"match\": true,\n                \"product_code\": \"PRD-7202-I\"\n            },\n            {\n                \"actual_total\": 4025.43,\n                \"expected_total\": 4025.43,\n                \"index\": 19,\n                \"match\": true,\n                \"product_code\": \"PRD-3558-H\"\n            },\n            {\n                \"actual_total\": 25889.82,\n                \"expected_total\": 25889.82,\n                \"index\": 20,\n                \"match\": true,\n                \"product_code\": \"PRD-9287-0\"\n            },\n            {\n                \"actual_total\": 21425.75,\n                \"expected_total\": 21425.75,\n                \"index\": 21,\n                \"match\": true,\n                \"product_code\": \"PRD-7415-A\"\n            },\n            {\n                \"actual_total\": 12172.02,\n                \"expected_total\": 12172.02,\n                \"index\": 22,\n                \"match\": true,\n                \"product_code\": \"PRD-8662-R\"\n            },\n            {\n                \"actual_total\": 36949.44,\n                \"expected_total\": 36949.44,\n                \"index\": 23,\n                \"match\": true,\n                \"product_code\": \"PRD-2303-X\"\n            },\n            {\n                \"actual_total\": 4317.84,\n                \"expected_total\": 4317.84,\n                \"index\": 24,\n                \"match\": true,\n                \"product_code\": \"PRD-3325-T\"\n            },\n            {\n                \"actual_total\": 13743.84,\n                \"expected_total\": 13743.84,\n                \"index\": 25,\n                \"match\": true,\n                \"product_code\": \"PRD-8864-N\"\n            },\n            {\n                \"actual_total\": 2749.53,\n                \"expected_total\": 2749.53,\n                \"index\": 26,\n                \"match\": true,\n                \"product_code\": \"PRD-8715-Y\"\n            },\n            {\n                \"actual_total\": 60,\n                \"expected_total\": 0,\n                \"index\": 27,\n                \"match\": false,\n                \"product_code\": \"PRD-6303-R\"\n            },\n            {\n                \"actual_total\": 5776.4,\n                \"expected_total\": 5776.4,\n                \"index\": 28,\n                \"match\": true,\n                \"product_code\": \"PRD-3933-A\"\n            },\n            {\n                \"actual_total\": 6103.68,\n                \"expected_total\": 6103.68,\n                \"index\": 29,\n                \"match\": true,\n                \"product_code\": \"PRD-8621-W\"\n            },\n            {\n                \"actual_total\": 12612.21,\n                \"expected_total\": 12612.21,\n                \"index\": 30,\n                \"match\": true,\n                \"product_code\": \"PRD-7202-I\"\n            },\n            {\n                \"actual_total\": 4025.43,\n                \"expected_total\": 4025.43,\n                \"index\": 31,\n                \"match\": true,\n                \"product_code\": \"PRD-3558-H\"\n            },\n            {\n                \"actual_total\": 25889.82,\n                \"expected_total\": 25889.82,\n                \"index\": 32,\n                \"match\": true,\n                \"product_code\": \"PRD-9287-0\"\n            },\n            {\n                \"actual_total\": 21425.75,\n                \"expected_total\": 21425.75,\n                \"index\": 33,\n                \"match\": true,\n                \"product_code\": \"PRD-7415-A\"\n            },\n            {\n                \"actual_total\": 12172.02,\n                \"expected_total\": 12172.02,\n                \"index\": 34,\n                \"match\": true,\n                \"product_code\": \"PRD-8662-R\"\n            },\n            {\n                \"actual_total\": 36949.44,\n                \"expected_total\": 36949.44,\n                \"index\": 35,\n                \"match\": true,\n                \"product_code\": \"PRD-2303-X\"\n            },\n            {\n                \"actual_total\": 4317.84,\n                \"expected_total\": 4317.84,\n                \"index\": 36,\n                \"match\": true,\n                \"product_code\": \"PRD-3325-T\"\n            }\n        ],\n        \"llm_summary\": \"The provided invoice data appears to be well-structured, including supplier information, PO numbers, item descriptions, quantities, unit prices, and totals. However, there are some discrepancies:\\n\\n   1. Product code \\\"PRD-6303-R\\\" has the same details as product code \\\"PRD-3933-A\\\". It is recommended to check if this is a duplicate entry or an error.\\n\\n   2. The total price for product code \\\"PRD-8621-W\\\" (Circuit Boards) and product code \\\"PRD-7202-I\\\" (Electronic Components) appear twice in the items list, which might be a data entry issue.\\n\\n   3. While all line items seem to have a 'total_price' except for three items with null unit price, these items are still adding up to a non-zero total value in the subtotal. It is suggested to verify if these calculations are correct.\\n\\n   4. The VAT amount appears reasonable based on the subtotal and total amounts; however, a detailed review of each item might be necessary to confirm accuracy.\\n\\n   Kindly review the above points for your records.\",\n        \"po_duplicates\": [],\n        \"summary_check\": {\n            \"calculated_subtotal\": 563205.8,\n            \"expected_total\": 563205.8,\n            \"match\": false,\n            \"summary_subtotal\": 0,\n            \"summary_total\": 0,\n            \"summary_vat\": 0\n        }\n    }\n}"
+				}
+			]
+		}
+	]
+}

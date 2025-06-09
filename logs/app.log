@@ -405,3 +405,42 @@
 2025-06-09 02:14:38,088 - app - INFO - Request URL: http://127.0.0.1:8080/extract
 2025-06-09 02:14:38,089 - app - INFO - Request Method: POST
 2025-06-09 02:14:38,097 - app - INFO - Request Data: b''
+2025-06-09 02:17:31,483 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-09 02:17:31,485 - app - INFO - Request Method: POST
+2025-06-09 02:17:31,495 - app - INFO - Request Data: b''
+2025-06-09 02:30:00,806 - app - INFO - Response Status: 200 OK
+2025-06-09 02:31:00,307 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-09 02:31:00,307 - app - INFO - Request Method: POST
+2025-06-09 02:31:00,319 - app - INFO - Request Data: b''
+2025-06-09 02:31:22,965 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-09 02:31:22,965 - app - INFO - Request Method: POST
+2025-06-09 02:31:22,967 - app - INFO - Request Data: b''
+2025-06-09 02:31:50,980 - app - INFO - Request URL: http://127.0.0.1:8080/extract
+2025-06-09 02:31:50,980 - app - INFO - Request Method: POST
+2025-06-09 02:31:50,982 - app - INFO - Request Data: b''
+2025-06-09 02:36:23,094 - app - INFO - Response Status: 200 OK
+2025-06-09 02:42:53,367 - app - INFO - Request URL: http://127.0.0.1:8080/apidocs/
+2025-06-09 02:42:53,371 - app - INFO - Request Method: GET
+2025-06-09 02:42:53,399 - app - INFO - Request Data: b''
+2025-06-09 02:42:53,555 - app - INFO - Response Status: 200 OK
+2025-06-09 02:42:53,619 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui.css
+2025-06-09 02:42:53,620 - app - INFO - Request Method: GET
+2025-06-09 02:42:53,620 - app - INFO - Request Data: b''
+2025-06-09 02:42:53,636 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-bundle.js
+2025-06-09 02:42:53,641 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/swagger-ui-standalone-preset.js
+2025-06-09 02:42:53,641 - app - INFO - Request Method: GET
+2025-06-09 02:42:53,645 - app - INFO - Request Data: b''
+2025-06-09 02:42:53,644 - app - INFO - Request Method: GET
+2025-06-09 02:42:53,649 - app - INFO - Request Data: b''
+2025-06-09 02:42:53,656 - app - INFO - Request URL: http://127.0.0.1:8080/flasgger_static/lib/jquery.min.js
+2025-06-09 02:42:53,656 - app - INFO - Request Method: GET
+2025-06-09 02:42:53,658 - app - INFO - Request Data: b''
+2025-06-09 02:42:53,760 - app - INFO - Response Status: 304 NOT MODIFIED
+2025-06-09 02:42:53,831 - app - INFO - Response Status: 304 NOT MODIFIED
+2025-06-09 02:42:53,860 - app - INFO - Response Status: 304 NOT MODIFIED
+2025-06-09 02:42:53,860 - app - INFO - Response Status: 304 NOT MODIFIED
+2025-06-09 02:42:54,602 - app - INFO - Request URL: http://127.0.0.1:8080/apispec_1.json
+2025-06-09 02:42:54,602 - app - INFO - Request Method: GET
+2025-06-09 02:42:54,603 - app - INFO - Request Data: b''
+2025-06-09 02:42:54,648 - app - INFO - Response Status: 200 OK
+2025-06-09 02:57:30,672 - app - INFO - Response Status: 200 OK
